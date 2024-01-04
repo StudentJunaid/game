@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100vh;
+    width: 100%;
+}
+
+#conatainer{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#BubbleContainer{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(219, 228, 228);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#bubbleTop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 150, 150);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem h3{
+    color: #fff;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#bubblebtm{
+    height: calc(80% - 100px);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.bubbleBox{
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(51, 150, 150);
+    cursor: pointer;
+}
